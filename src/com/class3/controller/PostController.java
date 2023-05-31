@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 
 public class PostController {
 
-    String INSERT_POST = "INSERT INTO post VALUES(?,?,?,?)";
+    String INSERT_POST = "INSERT INTO post_db VALUES(?,?,?,?)";
 
     public boolean insertNewPost(Post post) throws Exception {
         Connection conn = null;
